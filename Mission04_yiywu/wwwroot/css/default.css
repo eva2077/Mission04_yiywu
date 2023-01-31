@@ -1,0 +1,12 @@
+﻿body {
+    font-family: 'Trebuchet MS'
+}
+label {
+    font-size: 20px;
+    color: orangered;
+    width : 150px;
+    display: inline-block;
+}
+textarea{
+    font-size: 20px;
+}
