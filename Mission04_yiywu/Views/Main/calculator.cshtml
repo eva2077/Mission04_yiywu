@@ -11,22 +11,22 @@
 <!-- form label and input fields -->
 <form method="post">
     <label> Assignments</label>
-    <input type="number" id="assignments" asp-for="assignments1"  /><br /><br />
+    <input  id="assignments" asp-for="assignments1"  /><br /><br />
     <label> Group Project</label>
-    <input type="number" id="groupProject" asp-for="groupProject1"  /><br /><br />
+    <input  id="groupProject" asp-for="groupProject1"  /><br /><br />
     <label>Quizzes</label>
-    <input type="number" id="quiz" asp-for="quiz1"  /><br /><br />
+    <input  id="quiz" asp-for="quiz1"  /><br /><br />
     <label> Midterm Exam</label>
-    <input type="number" id="midtermExam" asp-for="midtermExam1"  /><br /><br />
+    <input  id="midtermExam" asp-for="midtermExam1"  /><br /><br />
     <label> Final Exam</label>
-    <input type="number" id="finalExam" asp-for="finalExam1"  /><br /><br />
+    <input  id="finalExam" asp-for="finalExam1"  /><br /><br />
     <label>INTEX</label>
-    <input type="number" id="intex" asp-for="intex1"  /><br /><br />
+    <input id="intex" asp-for="intex1"  /><br /><br />
     <div asp-validation-summary="All"></div>
     <!-- Grade Result is printed here -->
     <div id="result"></div>
     <br />
     <!-- Calculator Submit Button -->
-    <input id="buttonSend" type="button" value="Enter" />
+    <input id="buttonSend" type="submit" value="Enter" />
 
 </form>
